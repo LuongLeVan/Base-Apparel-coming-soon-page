@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Landing Page</title>
+  <link rel="icon" type="image/x-icon" href="/base-apparel-coming-soon-master/images/favicon-32x32.png">
+  
+</head>
+<body>
+  <div class="md:flex">
+    <div class="h-[60px]">
+      <img class="p-6 md:px-36 md:py-16" src="/base-apparel-coming-soon-master/images/logo.svg" alt="">
+      <img class="block md:hidden w-full mt-2" src="/base-apparel-coming-soon-master/images/hero-mobile.jpg" alt="">
+      <div class="p-8 md:px-36 md:py-16">
+        <h3 class="text-center md:text-start uppercase font-semibold text-[42px] md:text-[56px] text-[#be9797] -tracking-[-18px]">we're</h3>
+        <h3 class="uppercase md:text-start md:ml-0 md:translate-x-0 w-[80%] md:text-[56px] text-center ml-[50%] translate-x-[-50%] font-semibold text-[42px] -tracking-[-18px]">coming soon</h3>
+        <p class="text-[#be9797] md:mt-4 md:text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste fugiat mollitia ipsam? Accusamus deserunt voluptates itaque eaque illo voluptatibus beatae placeat, sapiente odio iure quidem aperiam iste at, eos praesentium.</p>
+        
+        <div class="relative md:mt-4">
+          <input id="value" class="p-4 rounded-full w-full mt-4 border border-[#be9797] outline-none text-[#be9797] placeholder:text-[#be9797]" type="email" placeholder="Email Address">
+          <img id="error" class="hidden absolute top-8 right-24" src="/base-apparel-coming-soon-master/images/icon-error.svg" alt="">
+          <button id="btn-click" type="submit" class="cursor-pointer hover:opacity-90">
+            <img class="bg-[#f19797] absolute right-0 top-4 px-9 py-5 rounded-full" src="/base-apparel-coming-soon-master/images/icon-arrow.svg" alt="">
+          </button>
+          <span class="message font-medium text-red-600 mt-3 ml-6"></span>
+        </div>
+        
+      </div>
+    </div>
+    <img class="hidden md:block" src="/base-apparel-coming-soon-master/images/hero-desktop.jpg" alt="">
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
